@@ -1,0 +1,10 @@
+﻿Model,Train Score,Test Score,Validation Accuracy,Best Parameters
+Linear Regression,0.7347,0.8244,0.7755,"'copy_X': True, 'fit_intercept': True, 'normalize': True"
+Ridge Regression,0.3737,0.2493,0.29919,'alpha': 20
+Lasso Regression,0.3695,0.24268,0.2935,"'alpha': 0.001, 'max_iter': 1000"
+Polynomial Regression,0.38157,0.2579,0.3784,No hyperparameter
+KNN Regressor,0.528,0.2302,0.2671,'n_neighbors': 14
+SGD Regressor,0.47758,0.24885,0.2943,"'learning_rate': 'invscaling', 'penalty': 'elasticnet'"
+Decision Tree Regressor,0.63118,0.1141,0.14946,"max_depth': 50, 'max_leaf_nodes': 30, 'min_samples_split': 10"
+Random Forest,0.88287,0.1354,0.17303,"'max_depth': 15, 'n_estimators': 50"
+XG Boost,0.69346,0.848245,0.8025,No hyperparameters tuned
